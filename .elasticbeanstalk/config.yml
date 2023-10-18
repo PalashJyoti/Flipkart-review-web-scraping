@@ -2,16 +2,16 @@ branch-defaults:
   main:
     environment: null
 global:
-  application_name: reviewflask
-  branch: main
+  application_name: flipkartscraper
+  branch: master
   default_ec2_keyname: null
   default_platform: Python 3.11
-  default_region: us-east-1
+  default_region: ap-south-1
   include_git_submodules: true
   instance_profile: null
   platform_name: null
   platform_version: null
-  profile: eb-cli
+  # profile: eb-cli
   repository: origin
   sc: git
   workspace_type: Application
