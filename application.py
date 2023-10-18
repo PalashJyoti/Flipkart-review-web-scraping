@@ -8,10 +8,12 @@ application = Flask(__name__)
 app=application
 
 @app.route("/",methods=['GET'])
+@cross_origin()
 def homepage():
     return render_template('index.html')
 
 @app.route('/review',methods=['POST', 'GET'])
+@cross_origin()
 def index():
     if request.method=='POST':
         try:
